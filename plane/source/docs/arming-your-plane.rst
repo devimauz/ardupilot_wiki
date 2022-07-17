@@ -101,7 +101,7 @@ pilots while flying so there are additional requirements prior to disarm:
 
 -  You need to allow rudder disarming by changing **ARMING_RUDDER**
    parameter to 2 (ArmOrDisarm) or use the ARM/DISARM switch function provided by 
-   setting an RC channel's RCx_OPTION to 41.
+   setting an RC channel's RCx_OPTION to 153 (41 under Ardupilot 4.2).
 -  The autopilot needs to make sure that you are not actually
    flying. There is an algorithm for this that uses the **airspeed sensor**
    readings. So you need this source available and giving values lower
